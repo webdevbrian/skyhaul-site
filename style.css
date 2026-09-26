@@ -1,0 +1,15 @@
+/* Sky Haul's public pages: the game's palette, readable on a phone. */
+:root { --ink: #1b2440; --ink-soft: #33406b; --cream: #fff4e0; --cream-dark: #f0dfc0; --coral: #ff6b57; --teal: #2a8f88; --sky: #8fd3e8; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--cream); color: var(--ink); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+header { background: linear-gradient(180deg, #34579f, #62b4de); color: var(--cream); padding: 40px 16px 32px; text-align: center; }
+header img { width: 96px; height: 96px; border-radius: 22px; box-shadow: 0 6px 0 rgba(27, 36, 64, .35); }
+header h1 { margin: 12px 0 0; font-size: 36px; letter-spacing: .5px; text-shadow: 0 3px 0 var(--ink); }
+header p { margin: 4px 0 0; opacity: .9; }
+main { max-width: 680px; margin: 0 auto; padding: 24px 16px 48px; }
+h2 { font-size: 22px; margin: 32px 0 8px; }
+a { color: var(--teal); }
+nav { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 16px; }
+nav a { color: var(--cream); font-weight: 600; }
+.card { background: #fff; border-radius: 18px; padding: 4px 20px 16px; box-shadow: 0 5px 0 var(--cream-dark); margin: 16px 0; }
+footer { text-align: center; color: var(--ink-soft); font-size: 14px; padding: 0 16px 32px; }
